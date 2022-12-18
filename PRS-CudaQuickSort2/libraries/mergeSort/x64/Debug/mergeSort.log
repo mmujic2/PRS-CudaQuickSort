@@ -1,0 +1,5 @@
+﻿  mergeSort.vcxproj -> C:\Users\admin\Desktop\CUDA\2\CUDA-QuickSort_v1.61\libraries\mergeSort\x64\Debug\mergeSort.lib
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin\cudart*.dll" "C:\Users\admin\Desktop\CUDA\2\CUDA-QuickSort_v1.61\libraries\mergeSort\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin\cudart32_110.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin\cudart64_110.dll
+          2 file(s) copied.

@@ -1,0 +1,1 @@
+C:\Users\admin\Desktop\CUDA\2\CUDA-QuickSort_v1.61\libraries\mergeSort\x64\Debug\mergeSort.lib

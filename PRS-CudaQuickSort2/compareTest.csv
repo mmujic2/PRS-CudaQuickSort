@@ -1,0 +1,4 @@
+
+'distribution sorted, average time on 1
+
+dataSize	RadixSort	CUDA-Quicksort	GPU-QuickSort	BitonicSort	MergeSort

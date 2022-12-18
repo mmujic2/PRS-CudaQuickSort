@@ -1,0 +1,18 @@
+﻿  Compiling CUDA source file src\bitonicSort.cu...
+  Compiling CUDA source file src\oddEvenMergeSort.cu...
+  
+  C:\Users\admin\Desktop\CUDA\2\CUDA-QuickSort_v1.61\libraries\bitonicSort>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin\nvcc.exe" -gencode=arch=compute_50,code=\"sm_50,compute_50\" --use-local-env -ccbin "D:\Program Files\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86" -x cu   -I../include/ -I../include/ -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fd../lib_win/Win32/bitonicSort.pdb /FS /Zi /RTC1 /MDd " -o Win32/bitonicSort.cu.obj "C:\Users\admin\Desktop\CUDA\2\CUDA-QuickSort_v1.61\libraries\bitonicSort\src\bitonicSort.cu" 
+  
+  C:\Users\admin\Desktop\CUDA\2\CUDA-QuickSort_v1.61\libraries\bitonicSort>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin\nvcc.exe" -gencode=arch=compute_50,code=\"sm_50,compute_50\" --use-local-env -ccbin "D:\Program Files\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86" -x cu   -I../include/ -I../include/ -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fd../lib_win/Win32/bitonicSort.pdb /FS /Zi /RTC1 /MDd " -o Win32/oddEvenMergeSort.cu.obj "C:\Users\admin\Desktop\CUDA\2\CUDA-QuickSort_v1.61\libraries\bitonicSort\src\oddEvenMergeSort.cu" 
+CUDACOMPILE : nvcc warning : The 'compute_35', 'compute_37', 'compute_50', 'sm_35', 'sm_37' and 'sm_50' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  bitonicSort.cu
+CUDACOMPILE : nvcc warning : The 'compute_35', 'compute_37', 'compute_50', 'sm_35', 'sm_37' and 'sm_50' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  oddEvenMergeSort.cu
+  main.cpp
+  sortingNetworks_validate.cpp
+  Generating Code...
+  bitonicSort.vcxproj -> C:\Users\admin\Desktop\CUDA\2\CUDA-QuickSort_v1.61\libraries\lib_win\Win32\bitonicSort.lib
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin\cudart*.dll" "../lib_win/Win32/"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin\cudart32_110.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin\cudart64_110.dll
+          2 file(s) copied.
